@@ -1,2 +1,4 @@
 
-ld 
+ld a, $D6
+ld $5800, a
+ret
